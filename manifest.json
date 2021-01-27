@@ -1,0 +1,72 @@
+{
+  "manifest_version": 2,
+  "name": "Alt-Tabs",
+  "version": "1.0.0",
+  "description": "Switch Firefox tabs on Windows the same way as on Linux, using alt+<number>.",
+  "author": "Severin Hauser",
+  "homepage_url": "https://github.com/sevhauser/alttabs",
+
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+
+  "background": {
+    "scripts": ["main.js"]
+  },
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "commands": {
+    "go-tab-1": {
+      "suggested_key": {
+        "default": "Alt+1"
+      },
+      "description": "Go to tab 1"
+    },
+    "go-tab-2": {
+      "suggested_key": {
+        "default": "Alt+2"
+      },
+      "description": "Go to tab 2"
+    },
+    "go-tab-3": {
+      "suggested_key": {
+        "default": "Alt+3"
+      },
+      "description": "Go to tab 3"
+    },
+    "go-tab-4": {
+      "suggested_key": {
+        "default": "Alt+4"
+      },
+      "description": "Go to tab 4"
+    },
+    "go-tab-5": {
+      "suggested_key": {
+        "default": "Alt+5"
+      },
+      "description": "Go to tab 5"
+    },
+    "go-tab-6": {
+      "suggested_key": {
+        "default": "Alt+6"
+      },
+      "description": "Go to tab 6"
+    },
+    "go-tab-8": {
+      "suggested_key": {
+        "default": "Alt+8"
+      },
+      "description": "Go to tab 8"
+    },
+    "go-tab-last": {
+      "suggested_key": {
+        "default": "Alt+9"
+      },
+      "description": "Go to last tab"
+    }
+  }
+}
