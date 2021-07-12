@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Alt-Tabs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Switch Firefox tabs on Windows the same way as on Linux, using alt+<number>.",
   "author": "Severin Hauser",
   "homepage_url": "https://github.com/sevhauser/alttabs",
@@ -55,6 +55,12 @@
         "default": "Alt+6"
       },
       "description": "Go to tab 6"
+    },
+    "go-tab-7": {
+      "suggested_key": {
+        "default": "Alt+7"
+      },
+      "description": "Go to tab 7"
     },
     "go-tab-8": {
       "suggested_key": {
